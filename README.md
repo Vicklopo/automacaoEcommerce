@@ -39,7 +39,7 @@ Caso não tenha, segue link abaixo para instalação de acordo com o seu sistema
 
 # Execução
 
-1º passo: Clonar o repositório
+1º passo: Clonar o repositório.
 
 2º passo: Na raíz do projeto, executar o comando:
 
@@ -47,6 +47,6 @@ Caso não tenha, segue link abaixo para instalação de acordo com o seu sistema
 
 # Relatório
 
-1º passo: na raíz do projeto, procure pelo diretório <strong>target</strong> e abra o arquivo <strong>cucumber-report.html</strong>
+1º passo: na raíz do projeto, procure pelo diretório <strong>target</strong> e abra o arquivo <strong>cucumber-report.html</strong>.
 
-2º passo: selecionar em qual browser deseja abrir o relatório
+2º passo: selecionar em qual browser deseja abrir o relatório.
