@@ -6,13 +6,13 @@ Portabilidade: Web;
 
 Linguagem: Java;
 
-Framework: Cucumber;
+Framework: Cucumber; Selenium WebDriver e JUnit;
 
-Executor: Selenium WebDriver;
+Executor: Maven;
 
-Browser: Google Chrome (Versão 95.0.4638.69)
+Browser: Google Chrome (Versão 95.0.4638.69);
 
-Virtualização: Docker Compose
+Virtualização: Docker Compose;
 
 Metodologia: Behavior Driven Development;
 
