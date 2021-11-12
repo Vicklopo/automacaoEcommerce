@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+
+  backend:
+    image: markhobson/maven-chrome:jdk-16
+    command: mvn clean test
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/usr/src:rw
+    working_dir: /usr/src

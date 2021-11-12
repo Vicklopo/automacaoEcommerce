@@ -7,8 +7,9 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -18,7 +19,6 @@ import java.util.concurrent.TimeUnit;
         }
         , glue = "stepDefinitions"
         , plugin = {"pretty", "html:target/cucumber-report.html"}
-//        , tags = "@Carrinho"
 )
 
 public class TestRunner {
@@ -29,18 +29,11 @@ public class TestRunner {
     public static void beforeAll() {
 
         if (driver==null){
-            System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver95.exe");
-            driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions()
+			.setHeadless(true);
+           driver = new ChromeDriver(options);
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         }
-    }
-
-    @AfterClass
-    public static void afterAll() {
-//        driver.quit();
-
-
-
     }
 }
