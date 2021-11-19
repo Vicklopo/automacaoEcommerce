@@ -12,7 +12,7 @@ Executor: Maven;
 
 Browser: Google Chrome (Versão 95.0.4638.69);
 
-Virtualização: Docker Compose;
+Virtualização: Docker;
 
 Metodologia: Behavior Driven Development;
 
