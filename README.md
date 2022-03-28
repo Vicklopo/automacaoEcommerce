@@ -14,7 +14,10 @@ Browser: Google Chrome (Versão 95.0.4638.69);
 
 Virtualização: Docker;
 
-Metodologia: Behavior Driven Development;
+Técnica de Desenvolvimento: BDD (Behavior Driven Development);
+
+Escritura dos Cenários: Gherkin;
+
 
 # Cenários de  Teste
 Login
